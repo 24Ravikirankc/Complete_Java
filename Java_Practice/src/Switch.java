@@ -35,7 +35,7 @@ class Switch {
 
 
         String x = "B";
-        switch (x.toLowerCase()) {
+        switch (x.toLowerCase()) { // ttoLowerCase key word helps to convert from caps to lower case and execute the programm
             case "a":
                             System.out.println(" x is a");
                 break;
