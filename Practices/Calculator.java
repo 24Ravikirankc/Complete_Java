@@ -6,13 +6,14 @@ public class Calculator
             a = x + y;
             return a;
         }
-}
 
-public class Add(String a[])
+
+public static void main(String[] args)
 {
     int n1 = 2;
     int n2 = 4;
-    Calculator Sum = new Calculator();
-    int r = Sum.Add(n1, n2);
+    Calculator sum = new Calculator();
+    int r = sum.Add(n1, n2);
     System.out.println(r);
+}
 }
