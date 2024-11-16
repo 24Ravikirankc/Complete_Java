@@ -1,3 +1,4 @@
+package Class_Object;
 public class Bicycle {
     int gear = 5;
 
