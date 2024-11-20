@@ -1,3 +1,4 @@
+package Practice;
 public class StringExam {
     public static void main(String[] args) {
 

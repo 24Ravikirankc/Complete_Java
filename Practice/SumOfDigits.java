@@ -1,3 +1,4 @@
+package Practice;
 class SumOfDigits {
     public static void main(String[] args) {
 int x = 123456; // 1+2+3+4 = 21

@@ -1,3 +1,4 @@
+package Practice;
 class Operator {
     public static void main(String[] args) {
 int mod = 15%3;

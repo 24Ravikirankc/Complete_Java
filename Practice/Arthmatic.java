@@ -1,3 +1,4 @@
+package Practice;
 class Arthmatic
 {
     public static void main(String args[])

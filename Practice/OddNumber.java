@@ -1,3 +1,4 @@
+package Practice;
 class OddNumber {
     public static void main(String args[]) {
         System.out.println("The Odd Numbers are:");

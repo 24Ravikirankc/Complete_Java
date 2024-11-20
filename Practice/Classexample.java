@@ -1,3 +1,4 @@
+package Practice;
 public class Classexample {
     int x = 5;
     int y = 6;

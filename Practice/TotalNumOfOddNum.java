@@ -1,3 +1,4 @@
+package Practice;
 class TotalNumOfOddNum
 {
     public static void main(String args[])
