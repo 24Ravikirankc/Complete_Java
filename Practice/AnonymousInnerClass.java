@@ -22,7 +22,7 @@ public class  AnonymousInnerClass{
     	{
     		public void show()
     		{
-    			System.out.println("in new show");
+    			System.out.println("Displaying anonymous inner class");
     		}
     	};
     	obj.show();
