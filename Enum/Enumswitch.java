@@ -1,31 +1,33 @@
-enum Status{
-	Running, Failed, Pending, Success;
+
+
+
+enum Status
+{
+	ACTIVE,
+	INACTIVE,
+	BLOCKED
 }
 
-public class Enumswitch {
-    public static void main(String[] args) {
+public class enumSwitch {
 
-    	Status s=Status.Pending;
-    	
-    	switch(s)
-    	{
-    		case Running:
-    			System.out.println("All Good");
-    			break;
-    			
-    		case Failed:
-    			System.out.println("Try Again");
-    			break;
-    			
-    		case Pending:
-    			System.out.println("Please Wait");
-    			break;
-    		
-    		default:
-    			System.out.println("Done");
-    			break;
-    	}
-   
-    	
-    }
+	public static void main(String[] args) {
+		Status s = Status.ACTIVE;
+		
+		switch(s)
+		{
+		case ACTIVE:
+			System.out.println("User is Active");
+			break;
+			
+		case INACTIVE:
+			System.out.println("User is Inactive");
+			break;
+			
+		case BLOCKED:
+			System.out.println("User is Blocked");
+			break;
+		}
+
+	}
+
 }
